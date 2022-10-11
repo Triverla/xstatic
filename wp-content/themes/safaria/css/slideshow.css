@@ -1,0 +1,18 @@
+.safaria-slideshow-image,.slide-item{position:relative}#slideshow-container{margin:0}.slide-item{height:800px;overflow:hidden}.overlay-banner{background:rgba(0,0,0,.35);position:absolute;top:0;left:0;width:100%;height:100%}.fade-layer{background-position:center center;background-size:cover;width:100%;height:800px;z-index:-1;position:fixed}.boxed .fade-layer{width:1200px}.layer-3{padding-top:140px}.layer-3 h1{font-size:104px;line-height:100px;color:#fff}.layer-3 h2{color:#fff;font-size:30px;line-height:34px}.layer-3 p{color:#fff;font-size:18px}.intro-safaria{position:absolute;bottom:100px;width:100%}.wrap-intro span.button-intro{width:80px;height:80px;cursor:pointer}.wrap-intro span a{width:100%;height:100%;display:inline-block;overflow:hidden;cursor:pointer;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;text-align:center;border:5px solid #fff}.wrap-intro span a i{text-align:center;font-size:30px;color:#fff;line-height:70px}.wrap-intro span.text-intro{font-size:25px;line-height:32px;max-width:100px;color:#fff}.wrap-intro span{display:inline-block;vertical-align:top;margin-right:15px;letter-spacing:0}#safaria-banner-video .title-video{position:absolute;top:0;width:100%;height:100%;display:table}#safaria-banner-video .title-video .content-text-video{height:725px;display:table-cell;vertical-align:middle;text-align:center}#safaria-banner-video .title-video h2{font-size:104px;line-height:120px;color:#fff}#safaria-banner-video .title-video p{color:#fff;font-size:18px}.point-destination.inpage{margin-top:-8px;position:relative}.inpage .point-slider-image-destination{margin-top:-65px}.inpage .weather-wrap{background:#f5f5f5;color:#939c9f}.inpage #weather .temp,.inpage #weather i{color:#939c9f}
+#slide-container.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
+.flexslider .span-active{display:none;}
+.flexslider .flex-active-slide .span-active{display: block;}
+.slide-item{width:100%;}
+.fade-layer{width: 100vw}
+.flexslider .layer-3{position: absolute; top:140px; padding-top: 0; left: 0; right: 0}
+#slide-container{height: 100%; overflow: hidden; max-height: 800px}
+.single-destination #slide-container{height: 100%; overflow: hidden; max-height: 700px }
+.single-destination #slide-container .slides .animated{position: relative;}
+.weather-wrap{z-index: 50}
+@media only screen and (max-width:1023px){
+	#slide-container{max-height: 400px; }
+	#safaria-carousel .flex-viewport{overflow: visible !important;}
+	#safaria-carousel .slides{width: 100% !important; transform:none !important;}
+	#safaria-carousel .slides li{width:20% !important;}
+	.point-slider-image-destination{height: auto !important}
+}

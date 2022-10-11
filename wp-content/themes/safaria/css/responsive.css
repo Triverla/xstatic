@@ -1,0 +1,894 @@
+@media only screen and (max-width:1024px) {
+    #ip-container.boxed {
+        width: 100%;
+        box-shadow: none;
+    }
+    #ip-container.boxed .navbar-fixed-top {
+        width: 100%;
+    }
+    .safaria-popup .container {
+        width: 970px;
+    }
+    input,
+    textarea,
+    select,
+    button {
+        outline: none;
+        border-radius: 0;
+        -webkit-appearance: none;
+    }
+    #nav-popup #menu li.addcol {
+        width: 30% !important;
+        margin-right: 20px !important
+    }
+    #nav-popup #menu li.addcol:nth-child(3n) {
+        margin-right: 0 !important;
+    }
+    .page-withsidebar.woocommerce div.product .summary .stock {
+        position: relative;
+        background: transparent;
+        color: #808080;
+        padding: 0
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+    .container {
+        width: 738px;
+    }
+    #nav-popup li.w-75,
+    #nav-popup li.w-24 {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px
+    }
+    #nav-popup li.w-24 img,
+    #nav-popup li.w-24 h1 {
+        display: block;
+        margin: 0 auto;
+        text-align: center
+    }
+    #nav-popup #menu li.addcol {
+        width: 30% !important;
+        margin-right: 28px !important
+    }
+    #nav-popup #menu li.addcol:nth-child(3n) {
+        margin-right: 0 !important;
+    }
+    .safaria-popup .container {
+        margin: 0;
+        width: 725px;
+        padding: 0
+    }
+    #nav-popup .col-sm-9,
+    #nav-popup .col-sm-3 {
+        width: 100%;
+        float: none;
+        clear: both
+    }
+    .safaria-popup .close {
+        margin-right: 20px;
+        margin-top: 0px
+    }
+    #nav-popup .modal-body {
+        padding: 15px 20px
+    }
+    .navbar-abs-right li {
+        right: 0px;
+    }
+    #content-wrapper {
+        padding: 40px 0
+    }
+    .elementor-element {
+        padding-right: 0 !important;
+        padding-left: 0 !important
+    }
+    .elementor-column-wrap {
+        margin: 0 !important;
+        padding: 15px !important
+    }
+    .elementor-section.nobg {
+        background-image: none !important;
+    }
+    .point-slider-image-destination {
+        height: auto;
+    }
+    .slide-item {
+        height: 400px;
+    }
+    .fade-layer {
+        min-height: 400px;
+        height: 400px;
+    }
+    .point-slider-image-destination ul li {
+        width: 20%;
+        height: 135px;
+    }
+    .inpage .point-slider-image-destination {
+        margin-top: -55px;
+    }
+    .weather-wrap {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .destination-image .text-destination h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .destination-image .text-destination p {
+        font-size: 12px;
+    }
+    #slideshow-destination .icon-wrap {
+        width: 40px;
+        height: 40px;
+    }
+    #slideshow-destination .icon-wrap i {
+        line-height: 35px;
+    }
+    .right-icon-destination {
+        line-height: 40px
+    }
+    .fb-like iframe {
+        width: 100% !important;
+    }
+    .fb-like.fb_iframe_widget span {
+        font-size: 11px !important;
+    }
+    /*shop*/
+    .woocommerce-page ul.products li.product,
+    .woocommerce ul.products li.product,
+    .woocommerce.columns-4 ul.products li.product,
+    .woocommerce.columns-3 ul.products li.product,
+    .woocommerce.columns-2 ul.products li.product {
+        width: 48% !important;
+    }
+    .woocommerce div.product .summary .stock {
+        position: relative;
+        background: transparent;
+        color: #808080;
+        padding: 0
+    }
+    .woocommerce form.login,
+    .woocommerce form.register {
+        margin-bottom: 20px
+    }
+    .page-withsidebar .product-images {
+        float: none;
+        max-width: 100%;
+        margin-right: 0
+    }
+    .safaria-product-button .yith-wcwl-add-to-wishlist,
+    .page-withsidebar ul.products .safaria-product-button .yith-wcwl-add-to-wishlist,
+    .woocommerce ul.products li.product .price,
+    .page-withsidebar .woocommerce ul.products li.product .price {
+        float: none !important;
+        display: block !important;
+        margin-top: 0;
+    }
+    #footer .container {
+        padding: 30px 15px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .admin-bar .navbar-fixed-top.navbar-black {
+        top: 0;
+        min-height: auto;
+        height: auto;
+    }
+    .safaria-popup .container {
+        width: auto;
+    }
+    .nav-container nav {
+        height: 83px;
+    }
+    #nav-popup li.w-75,
+    #nav-popup li.w-24 {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px
+    }
+    #nav-popup li.w-24 img,
+    #nav-popup li.w-24 h1 {
+        display: block;
+        margin: 20px auto 0 auto;
+        text-align: center
+    }
+    .logo-text .header-nav li h1 {
+        margin-top: 15px;
+    }
+    #nav-popup #menu li.addcol {
+        width: 100% !important;
+    }
+    .safaria-popup .close {
+        margin-right: 10px;
+        margin-top: 0px
+    }
+    #menu_left {
+        left: 15px;
+    }
+    #menu_left li {
+        display: inline-block;
+        padding: 0
+    }
+    #menu_left li a {
+        padding: 10px 6px !important
+    }
+    .safaria-dropdown-cart {
+        display: none !important;
+    }
+    .header-nav li {
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
+        margin-top: 20px
+    }
+    .navbar-abs-right li {
+        right: 20px;
+    }
+    .themobilecart {
+        margin: 30px 0;
+        text-align: center;
+        position: relative;
+        overflow: visible
+    }
+    .themobilecart li {
+        padding: 0 5px;
+    }
+    .themobilecart .searchnav {
+        position: relative;
+    }
+    .header-nav li img {
+        margin-top: 0px;
+    }
+    .show-menu {
+        font-size: 0 !important;
+        line-height: 0;
+    }
+    .navsearch {
+        margin-right: 10px;
+    }
+    .searchnav {
+        right: 0 !important;
+    }
+    .safaria-popup .navsearch {
+        float: none;
+        text-align: center;
+    }
+    .safaria-popup .searchnav {
+        display: none;
+    }
+    .safaria-popup .navbar-abs-right li {
+        right: 0;
+    }
+    .safaria-popnav {
+        padding-left: 5px;
+    }
+    #menu_right {
+        display: none;
+        visibility: hidden;
+    }
+    .nav-container .safaria-wishlist-menu,
+    .nav-container .safaria-dropdown-link {
+        display: none !important;
+    }
+    .point-slider-image-destination {
+        height: auto;
+    }
+    .slide-item {
+        height: 400px;
+    }
+    .fade-layer {
+        min-height: 400px;
+        height: 400px;
+    }
+    .point-slider-image-destination ul li {
+        width: 20%;
+        height: 55px;
+    }
+    .checkmark {
+        width: 30px;
+        height: 30px;
+    }
+    .inpage .point-slider-image-destination {
+        margin-top: -55px;
+    }
+    .weather-wrap {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .elementor-element {
+        padding-right: 0 !important;
+        padding-left: 0 !important
+    }
+    .elementor-column-wrap {
+        margin: 0 !important;
+        padding: 15px !important
+    }
+    .elementor-section.nobg {
+        background-image: none !important;
+    }
+    ul.cdo-destination-list.column3 li {
+        width: 100%;
+    }
+    .page-header-table {
+        padding: 30px 15px 0 15px;
+    }
+    .page-title {
+        font-size: 40px !important;
+        line-height: 40px !important;
+    }
+    .page-desc {
+        font-size: 14px !important;
+    }
+    .cdo-pf-container>div {
+        margin-bottom: 10px;
+    }
+    .ornament {
+        background: transparent !important;
+    }
+    #slideshow-destination .animated img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .destination-image .text-destination h1 {
+        font-size: 40px !important;
+        line-height: 45px !important
+    }
+    #slideshow-destination .icon-wrap {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    #slideshow-destination .icon-wrap i {
+        line-height: 40px;
+    }
+    .destination-image .wrap-info-destination ul.left-icon-destination {
+        margin-bottom: 0;
+    }
+    .destination-image .text-destination p {
+        font-size: 12px;
+    }
+    .destination-image .text-destination .text-table .text-cell {
+        padding: 0 15px;
+    }
+    .point-destination .info-place {
+        text-align: center;
+    }
+    .point-destination .info-place .col-sm-4 {
+        margin-bottom: 30px;
+    }
+    .point-destination .info-place .col-sm-4:last-child {
+        margin-bottom: 0;
+    }
+    .fb-like {
+        margin: 30px 0 0 0 !important;
+    }
+    .fb-like iframe {
+        width: 100% !important;
+    }
+    /*blog*/
+    .article-post {
+        margin-bottom: 20px;
+    }
+    .article-post .post-time {
+        float: none;
+        display: block;
+        padding: 0;
+        text-align: left;
+        font-size: 14px;
+    }
+    .quote-post blockquote {
+        padding: 20px
+    }
+    .quote-post blockquote:before {
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .link-post a {
+        font-size: 12px;
+    }
+    /*content*/
+    .cdo-pricing-item-container {
+        width: 100%;
+    }
+    .zebra-strip {
+        margin-top: -95px !important;
+    }
+    .content-area {
+        float: none !important;
+    }
+    .widget-area {
+        clear: both;
+        padding-top: 30px
+    }
+    .safaria-button-large {
+        padding: 20px 40px !important
+    }
+    .custom-title .elementor-heading-title {
+        font-size: 40px !important;
+    }
+    .content-planning-card {
+        margin-top: 0 !important;
+    }
+    .f40 {
+        line-height: 40px;
+    }
+    /*shop*/
+    .woocommerce-page ul.products li.product,
+    .woocommerce ul.products li.product,
+    .woocommerce.columns-4 ul.products li.product,
+    .woocommerce.columns-3 ul.products li.product,
+    .woocommerce.columns-2 ul.products li.product {
+        width: 100% !important;
+        float: none !important;
+    }
+    .woocommerce div.product .summary .stock {
+        position: relative;
+        background: transparent;
+        color: #808080;
+        padding: 0
+    }
+    .woocommerce-account .woocommerce-MyAccount-navigation,
+    .woocommerce-account .woocommerce-MyAccount-content {
+        float: none;
+        width: 100%;
+    }
+    .woocommerce form.login,
+    .woocommerce form.register {
+        margin-bottom: 20px
+    }
+    .lost_password {
+        float: none;
+        margin: 0
+    }
+    .woocommerce form .form-row-first,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-first,
+    .woocommerce-page form .form-row-last,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-last {
+        float: none;
+        width: 100%
+    }
+    #coupon_code {
+        display: block;
+        float: none;
+        margin-bottom: 10px
+    }
+    .woocommerce-page table.cart td.actions .coupon input,
+    .checkout_coupon input {
+        width: 100% !important
+    }
+    .woocommerce .woocommerce-ordering,
+    .woocommerce-page .woocommerce-ordering {
+        float: none;
+    }
+    .woocommerce .woocommerce-error .button,
+    .woocommerce .woocommerce-info .button,
+    .woocommerce .woocommerce-message .button {}
+    .page-withsidebar .reset_variations {
+        margin-top: 10px
+    }
+    .product-images {
+        float: none;
+        max-width: 100%;
+        margin-right: 0;
+        overflow: hidden
+    }
+    .wishlist_table thead th {
+        display: none
+    }
+    .wishlist_table tr,
+    .woocommerce table.wishlist_table tbody td {
+        display: block;
+        text-align: center
+    }
+    .woocommerce table.wishlist_table tfoot td {
+        width: 100%;
+        border: 0
+    }
+    .woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+        font-size: 1em;
+    }
+    #footer {
+        background-size: cover;
+    }
+    #footer .container {
+        padding: 30px 15px;
+    }
+    .top-footer img {
+        display: block;
+        margin: 0 auto;
+    }
+    .top-footer .text-right {
+        text-align: center !important
+    }
+    #footer aside {
+        margin-bottom: 50px !important;
+    }
+    #footer .safariacontactinfo_widget,
+    .footerbottom .text-right {
+        text-align: left !important
+    }
+    .footerbottom {
+        margin-top: 0;
+    }
+    #footer .safaria-logo-widget img {
+        width: auto;
+    }
+    #scrollUp {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .admin-bar .navbar-fixed-top.navbar-black {
+        top: 0;
+        min-height: auto;
+        height: auto;
+    }
+    .safaria-popup .container {
+        width: auto;
+    }
+    .nav-container nav {
+        height: 83px;
+    }
+    #nav-popup li.w-75,
+    #nav-popup li.w-24 {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px
+    }
+    #nav-popup li.w-24 img,
+    #nav-popup li.w-24 h1 {
+        display: block;
+        margin: 20px auto 0 auto;
+        text-align: center
+    }
+    .logo-text .header-nav li h1 {
+        margin-top: 15px;
+    }
+    #nav-popup #menu li.addcol {
+        width: 100% !important;
+    }
+    .safaria-popup .close {
+        margin-right: 10px;
+        margin-top: 0px
+    }
+    #menu_left {
+        left: 15px;
+    }
+    #menu_left li {
+        display: inline-block;
+        padding: 0
+    }
+    #menu_left li a {
+        padding: 10px 6px !important
+    }
+    .safaria-dropdown-cart {
+        display: none !important;
+    }
+    .header-nav li {
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
+        margin-top: 20px
+    }
+    .navbar-abs-right li {
+        right: 20px;
+    }
+    .themobilecart {
+        margin: 30px 0;
+        text-align: center;
+        position: relative;
+        overflow: visible
+    }
+    .themobilecart li {
+        padding: 0 5px;
+    }
+    .themobilecart .searchnav {
+        position: relative;
+    }
+    .header-nav li img {
+        margin-top: -42px;
+    }
+    .show-menu {
+        font-size: 0 !important;
+        line-height: 0;
+    }
+    .navsearch {
+        margin-right: 10px;
+    }
+    .searchnav {
+        right: 0 !important;
+    }
+    .safaria-popup .navsearch {
+        float: none;
+        text-align: center;
+    }
+    .safaria-popup .searchnav {
+        display: none;
+    }
+    .safaria-popup .navbar-abs-right li {
+        right: 0;
+    }
+    .safaria-popnav {
+        padding-left: 5px;
+    }
+    #menu_right {
+        display: none;
+        visibility: hidden;
+    }
+    .nav-container .safaria-wishlist-menu,
+    .nav-container .safaria-dropdown-link {
+        display: none !important;
+    }
+    .point-slider-image-destination {
+        height: auto;
+    }
+    .slide-item {
+        height: 400px;
+    }
+    .fade-layer {
+        min-height: 400px;
+        height: 400px;
+    }
+    .point-slider-image-destination ul li {
+        width: 20%;
+        height: 55px;
+    }
+    .checkmark {
+        width: 30px;
+        height: 30px;
+    }
+    .inpage .point-slider-image-destination {
+        margin-top: -55px;
+    }
+    .weather-wrap {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .elementor-element {
+        padding-right: 0 !important;
+        padding-left: 0 !important
+    }
+    .elementor-column-wrap {
+        margin: 0 !important;
+        padding: 15px !important
+    }
+    .elementor-section.nobg {
+        background-image: none !important;
+    }
+    ul.cdo-destination-list.column3 li {
+        width: 100%;
+    }
+    .page-header-table {
+        padding: 30px 15px 0 15px;
+    }
+    .page-title {
+        font-size: 40px !important;
+        line-height: 40px !important;
+    }
+    .page-desc {
+        font-size: 14px !important;
+    }
+    .cdo-pf-container>div {
+        margin-bottom: 10px;
+    }
+    .ornament {
+        background: transparent !important;
+    }
+    #slideshow-destination .animated img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .destination-image .text-destination h1 {
+        font-size: 40px !important;
+        line-height: 45px !important
+    }
+    #slideshow-destination .icon-wrap {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    #slideshow-destination .icon-wrap i {
+        line-height: 40px;
+    }
+    .destination-image .wrap-info-destination ul.left-icon-destination {
+        margin-bottom: 0;
+    }
+    .destination-image .text-destination p {
+        font-size: 12px;
+    }
+    .destination-image .text-destination .text-table .text-cell {
+        padding: 0 15px;
+    }
+    .point-destination .info-place {
+        text-align: center;
+    }
+    .point-destination .info-place .col-sm-4 {
+        margin-bottom: 30px;
+    }
+    .point-destination .info-place .col-sm-4:last-child {
+        margin-bottom: 0;
+    }
+    .fb-like {
+        margin: 30px 0 0 0 !important;
+    }
+    .fb-like iframe {
+        width: 100% !important;
+    }
+    /*blog*/
+    .article-post {
+        margin-bottom: 20px;
+    }
+    .article-post .post-time {
+        float: none;
+        display: block;
+        padding: 0;
+        text-align: left;
+        font-size: 14px;
+    }
+    .quote-post blockquote {
+        padding: 20px
+    }
+    .quote-post blockquote:before {
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .link-post a {
+        font-size: 12px;
+    }
+    /*content*/
+    .cdo-pricing-item-container {
+        width: 100%;
+    }
+    .zebra-strip {
+        margin-top: -95px !important;
+    }
+    .content-area {
+        float: none !important;
+    }
+    .widget-area {
+        clear: both;
+        padding-top: 30px
+    }
+    .safaria-button-large {
+        padding: 20px 40px !important
+    }
+    .custom-title .elementor-heading-title {
+        font-size: 40px !important;
+    }
+    .content-planning-card {
+        margin-top: 0 !important;
+    }
+    .f40 {
+        line-height: 40px;
+    }
+    /*shop*/
+    .woocommerce-page ul.products li.product,
+    .woocommerce ul.products li.product,
+    .woocommerce.columns-4 ul.products li.product,
+    .woocommerce.columns-3 ul.products li.product,
+    .woocommerce.columns-2 ul.products li.product {
+        width: 100% !important;
+        float: none !important;
+    }
+    .woocommerce div.product .summary .stock {
+        position: relative;
+        background: transparent;
+        color: #808080;
+        padding: 0
+    }
+    .woocommerce-account .woocommerce-MyAccount-navigation,
+    .woocommerce-account .woocommerce-MyAccount-content {
+        float: none;
+        width: 100%;
+    }
+    .woocommerce form.login,
+    .woocommerce form.register {
+        margin-bottom: 20px
+    }
+    .lost_password {
+        float: none;
+        margin: 0
+    }
+    .woocommerce form .form-row-first,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-first,
+    .woocommerce-page form .form-row-last,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-last {
+        float: none;
+        width: 100%
+    }
+    #coupon_code {
+        display: block;
+        float: none;
+        margin-bottom: 10px
+    }
+    .woocommerce-page table.cart td.actions .coupon input,
+    .checkout_coupon input {
+        width: 100% !important
+    }
+    .woocommerce .woocommerce-ordering,
+    .woocommerce-page .woocommerce-ordering {
+        float: none;
+    }
+    .woocommerce .woocommerce-error .button,
+    .woocommerce .woocommerce-info .button,
+    .woocommerce .woocommerce-message .button {}
+    .page-withsidebar .reset_variations {
+        margin-top: 10px
+    }
+    .product-images {
+        float: none;
+        max-width: 100%;
+        margin-right: 0;
+        overflow: hidden
+    }
+    .wishlist_table thead th {
+        display: none
+    }
+    .wishlist_table tr,
+    .woocommerce table.wishlist_table tbody td {
+        display: block;
+        text-align: center
+    }
+    .woocommerce table.wishlist_table tfoot td {
+        width: 100%;
+        border: 0
+    }
+    .woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+        font-size: 1em;
+    }
+    #footer {
+        background-size: cover;
+    }
+    #footer .container {
+        padding: 30px 15px;
+    }
+    .top-footer img {
+        display: block;
+        margin: 0 auto;
+    }
+    .top-footer .text-right {
+        text-align: center !important
+    }
+    #footer aside {
+        margin-bottom: 50px !important;
+    }
+    #footer .safariacontactinfo_widget,
+    .footerbottom .text-right {
+        text-align: left !important
+    }
+    .footerbottom {
+        margin-top: 0;
+    }
+    #scrollUp {
+        display: none !important;
+    }
+}
