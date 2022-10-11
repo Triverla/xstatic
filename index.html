@@ -612,9 +612,9 @@
                                                             Link up and Games</h2>
                                                         <hr>
                                                         <p>
-                                                            Really amazing can see Rhino Family and take a picture with them is like my dream come true !
+                                                            The Black skin is not a badge of shame, but rather a glorious symbol of national greatness.
 
-                                                            <span class="text-right text-block">- Tommy Davidson</span>
+                                                            <span class="text-right text-block">- Marcus Garvey</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -790,7 +790,7 @@
                                             <span class="temp">20/27&deg;C </span>
                                         </div>
                                         <div class="weather-right">
-                                            <span class="title-weather">27 Sep 2022</span>
+                                            <span class="title-weather" id="date1">27 Sep 2022</span>
                                             <figure class="icons"><i class="wi wi-wind towards-0-deg"></i></figure>
                                             <span class="wind">1.24 m/s</span>
                                         </div>
@@ -1598,7 +1598,7 @@
                         <div class="col-sm-4">
                             <aside class="widgets safariacontactinfo_widget" id="safariacontactinfo_widget-1">
                                 <h3 class="widget-title">Contact</h3>
-                                <p>Locate Us<br /> Jl Soekarno Street 077 SP 70A, Cimahi</p>
+                                <p>Locate Us<br /> Street E22, Satana crescent, Garki, Abuja</p>
                                 <p>+ 234 901 123 8779<br /> info@ihotuafrica.com
                                 </p>
                                 <div class="safaria-logo-widget"><img src="wp-content/uploads/logo.png" alt="Contact" />
@@ -1771,10 +1771,6 @@
                                                 </li>
                                                 <li id="menu-item-1042" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1042">
                                                     <a href="#">About Us</a>
-                                                </li>
-                                                <li id="menu-item-1098" class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-1098">
-                                                    <a href="#">Destination
-                                                        Details</a>
                                                 </li>
                                                 <li id="menu-item-1043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1043">
                                                     <a href="#">Contact
@@ -2028,6 +2024,15 @@
             "loop": "1"
         };
         /* ]]> */
+
+        const el = document.getElementById('date1');
+        const date = new Date();
+
+        let day = date.getDate();
+        let month = date.getMonth() + 1;
+        let year = date.getFullYear();
+
+        el.innerHTML = `${day}/${month}/${year}`;
     </script>
     <script type='text/javascript' src='https://demowp.codeopus.id/safaria/wp-content/plugins/safaria-elementor-widget/assets/js/product-slider.js?ver=1.0.0' id='sfr-product-slider-js'></script>
     <script type='text/javascript' src='https://demowp.codeopus.id/safaria/wp-content/plugins/safaria-elementor-widget/assets/js/testimonial-slider.js?ver=1.0.0' id='sfr-testimonial-slider-js'></script>
