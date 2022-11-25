@@ -2007,7 +2007,23 @@
     <script type='text/javascript' src='https://demowp.codeopus.id/safaria/wp-content/plugins/codeopus-shortcodes/js/jquery.fancybox-media.js?ver=5.8.5' id='cdo-fancybox-media-js'></script>
     <script type='text/javascript' src='https://demowp.codeopus.id/safaria/wp-content/plugins/codeopus-shortcodes/js/cdo-fancybox.js?ver=5.8.5' id='cdo-fancybox-setting-js'></script>
     <script type='text/javascript' src='https://demowp.codeopus.id/safaria/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.7.6' id='preloaded-modules-js'></script>
+    <script>
+        document.getElementById('nav-popup').addEventListener('click', closeDialog);
+       function closeDialog() {
+        let d = document.getElementById('nav-popup')
+        d.style.display = "none"
+        d.classList.remove("in")
+        d.ariaHidden = "true"
+        let bd = document.querySelector('.modal-backdrop')
+        console.log(bd);
+        bd.classList.remove("in")
+        bd.classList.remove("modal-backdrop")
+        bd.style.removeProperty("height")
 
+        let body = document.querySelector('body')
+        body.classList.remove("modal-open")
+    }
+    </script>
 </body>
 
 </html>
